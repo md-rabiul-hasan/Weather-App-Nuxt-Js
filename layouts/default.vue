@@ -1,15 +1,6 @@
 <template>
   <v-app light>
     <v-main>
-      <v-toolbar color="indigo">
-        <v-app-bar-nav-icon></v-app-bar-nav-icon>
-        <v-toolbar-title>Title</v-toolbar-title>
-        <v-spacer></v-spacer>
-
-        <v-btn text>
-          <nuxt-link to="/">Weather Application</nuxt-link>
-        </v-btn>
-      </v-toolbar>
       <transition>
         <v-content>
           <nuxt />
